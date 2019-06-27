@@ -1,0 +1,5 @@
+$response = {
+	"inlineCheckbox1": "",
+	"lastname" : $_POST['namee'],
+	"test": $ppp
+}

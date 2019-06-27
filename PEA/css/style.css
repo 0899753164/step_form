@@ -1,0 +1,105 @@
+ body{
+    background-color: #ECEFF4;
+    font-size: 16px;
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #343434;
+  }
+  /*/************************@fontface ***********/
+/*@font-face {
+  font-family: 'font_2';
+  src: url('fonts/Prompt-Regular.ttf');
+  src: local('☺'), url('../fonts/') format('woff'), 
+  url('fonts/Prompt-Regular.ttf') format('truetype'), 
+  url('') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+* { font-family: 'font_2'; }
+div {font-family: 'font_2';}*/
+/*************************END *********************/
+  form{
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    margin-top: 60px;
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+  }
+  hr{
+    border-color: 2px #F5F5F5;;
+    height: 10px;
+    width: auto;
+  }
+  /*nav{
+    border-bottom: 5px ##7F3F97;
+    border-width: auto;
+    border-height: 30px;
+  }*/
+  .navbar{
+    border-bottom: solid 10px #7f3f97;
+  }
+  .PeaColorHeader {
+    width: 100%;
+    border-bottom: 7px solid #b58e38;
+  }
+  .step 
+  {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    border: 3px solid #F3F3F3;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    z-index: 10;
+    display: block;
+    text-align: -webkit-center;
+
+    border-color: #009efb;
+    background-color: #fff;
+    color: #009efb;
+  }
+  form{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 15%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 10px #D3D3D3;
+  }
+  .page-icon {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    background: #7f3e98;
+    text-align: center;
+    margin: -120px auto 0;
+}
+  .animated {
+    -webkit-animation-delay: .8s;
+    -moz-animation-delay: .8s;
+    -o-animation-delay: .8s;
+    animation-delay: .8s;
+}
+.bounceInDown {
+    /* -webkit-animation-name: bounceInDown; */
+    -moz-animation-name: bounceInDown;
+    -o-animation-name: bounceInDown;
+    animation-name: bounceInDown;
+    }
+        .list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 0px solid #ffffff;
+        width: max-content;
+ }
